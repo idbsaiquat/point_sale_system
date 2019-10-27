@@ -1,18 +1,21 @@
 package com.exam.controller;
 
+import java.util.Collection;
+import java.util.List;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.exam.model.UserInfo;
 import com.exam.service.UserInfoService;
@@ -34,16 +37,24 @@ public class LoginController {
 		return null;
 
 	}
+	@GetMapping("/login")
+	public ModelAndView login() {
 
-	@GetMapping("/")
-	public String Home() {
-		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		
+		return new ModelAndView("/login");
 
-		if (!(auth instanceof AnonymousAuthenticationToken)) {
-			String currentUserName = auth.getName();			
-			return currentUserName;
-		}
-		return null;
 	}
-
+	
+	@GetMapping("/login-success")
+	public ModelAndView loginSuccess() {
+		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+		String currentPrincipalName = authentication.getName();
+		List<GrantedAuthority> role=(List<GrantedAuthority>) authentication.getAuthorities();
+		if(role.get(0).getAuthority().equalsIgnoreCase("user")){
+			return new ModelAndView("/login-success");
+		}
+		else {
+			return null;
+		}
+	}	
 }

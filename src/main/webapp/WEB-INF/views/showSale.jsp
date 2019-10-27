@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 
     <title>Modernize an Admin Panel Category Bootstrap Responsive Web Template | Forms :: w3layouts</title>
     <!-- Meta Tags -->
@@ -196,6 +197,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div>
                 <!--// Forms-4 -->
+=======
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 
 </body>
 </html>

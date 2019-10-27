@@ -28,6 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     <!-- Style-sheets -->
     <!-- Bootstrap Css -->
+<<<<<<< HEAD
     <link href="" rel="stylesheet" type="text/css" media="all" />
     <!-- Bootstrap Css -->
     <!-- Common Css -->
@@ -35,6 +36,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--// Common Css -->
     <!-- Fontawesome Css -->
     <link href="/css/fontawesome-all.css" rel="stylesheet">
+=======
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Bootstrap Css -->
+    <!-- Common Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--// Common Css -->
+    <!-- Fontawesome Css -->
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
     <!--// Fontawesome Css -->
     <!--// Style-sheets -->
 

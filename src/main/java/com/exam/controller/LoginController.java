@@ -41,7 +41,11 @@ public class LoginController {
 	public ModelAndView login() {
 
 		
+<<<<<<< HEAD
 		return new ModelAndView("/login");
+=======
+		return new ModelAndView("login");
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 
 	}
 	

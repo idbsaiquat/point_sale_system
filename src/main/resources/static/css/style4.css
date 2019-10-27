@@ -38,6 +38,7 @@ a:focus {
     border: none;
     background: #4463dc;
 }
+<<<<<<< HEAD
 .outer-w3-agile.mt-3 {
     position: absolute;
 }
@@ -80,6 +81,8 @@ button.btn.btn-primary.btn-lg.btn-block.error-w3l-btn {
     text-align: center;
     margin: 0px 0px 0px 48px;
 }
+=======
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 
 .btn-info:focus,
 .btn-info.focus {
@@ -95,7 +98,10 @@ button.btn.btn-primary.btn-lg.btn-block.error-w3l-btn {
     border-color: #f75757;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 .line {
     width: 100%;
     height: 1px;

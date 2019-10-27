@@ -15,7 +15,14 @@ public class HomeController {
 	public ModelAndView index() {
 		return new ModelAndView("index");
 	}
+<<<<<<< HEAD
 	
+=======
+	@GetMapping(value = "/loginApp")
+	public ModelAndView loginApp() {
+		return new ModelAndView("loginApp");
+	}
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 	@GetMapping(value = "/register")
 	public ModelAndView register() {
 		return new ModelAndView("register");
@@ -104,9 +111,13 @@ public class HomeController {
 	@GetMapping(value = "/updateSale")
 	public ModelAndView updateSale() {
 		return new ModelAndView("updateSale");
+<<<<<<< HEAD
 	}	
 	@GetMapping(value = "/addSale")
 	public ModelAndView addSale() {
 		return new ModelAndView("addSale");
 	}
+=======
+	}		
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 }

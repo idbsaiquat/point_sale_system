@@ -1,11 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<<<<<<< HEAD
 <jsp:include page="header.jsp" />
 
+=======
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<<<<<<< HEAD
 <title>Purchase</title>
 </head>
 <body>	
@@ -180,3 +184,11 @@
 
 
 <jsp:include page="footer.jsp" />
+=======
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220

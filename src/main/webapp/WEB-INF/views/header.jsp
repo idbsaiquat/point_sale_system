@@ -77,7 +77,11 @@
                             <a href="/showProduct">Show Product</a>
                         </li>
                         <li>
+<<<<<<< HEAD
                             <a href="addProduct">Add Product</a>
+=======
+                            <a href="/addProduct">Add Product</a>
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
                         </li>
                         <li>
                             <a href="/updateProduct">Update Product</a>
@@ -98,7 +102,11 @@
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu1">
                         <li>
+<<<<<<< HEAD
                             <a href="/addSale">Product Sale</a>
+=======
+                            <a href="/showSale">Show Sale</a>
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
                         </li>                        
                         <li>
                             <a href="/updateSale">Update Sale</a>
@@ -119,10 +127,14 @@
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu2">
                         <li>
+<<<<<<< HEAD
                             <a href="/purchase">Add Purchase</a>
                         </li>
                         <li>
                             <a href="/purchase">Show Purchase</a>
+=======
+                            <a href="/showPurchase">Show Purchase</a>
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
                         </li>                        
                         <li>
                             <a href="/updatePurchase">Update Purchase</a>

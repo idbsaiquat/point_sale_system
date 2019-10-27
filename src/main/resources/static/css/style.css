@@ -57,8 +57,11 @@ ul {
 	padding: 0;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 label {
 	margin: 0;
 }
@@ -474,11 +477,15 @@ ul.top-icons-agileits-w3layouts a.nav-link i {
 	display: block;
 	padding: 15px 0;
 }
+<<<<<<< HEAD
 .form-check {
     position: relative;
     display: block;
     padding-left: 14.25rem;
 }
+=======
+
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 .f-left {
 	background: #ff4c4c;
 	text-align: center;
@@ -1343,12 +1350,20 @@ h1.paragraph-agileits-w3layouts a:hover {
 ------------------------------------------*/
 
 .bg-page {
+<<<<<<< HEAD
 	background: #6c757d;
+=======
+	background: #4c6ef5;
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 	min-height: 100vh;
 }
 
 .form-body-w3-agile.text-center {
+<<<<<<< HEAD
 	background: #6c757d;
+=======
+	background: #fff;
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 	padding: 3em 5em;
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.34);
 	-moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.34);
@@ -1357,9 +1372,15 @@ h1.paragraph-agileits-w3layouts a:hover {
 
 .form-body-w3-agile .form-control {
 	display: block;
+<<<<<<< HEAD
 	width: 55%;
 	padding: 0.7em 0em;
     margin: 0.5em 14em 1.5em;
+=======
+	width: 100%;
+	padding: 0.7em 1em;
+	margin: .5em 0em 1.5em;
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 	font-size: 15px;
 	letter-spacing: 1px;
 	text-align: center;
@@ -1367,7 +1388,11 @@ h1.paragraph-agileits-w3layouts a:hover {
 	background-color: transparent;
 	background-clip: padding-box;
 	border: 1px solid #e6e6e6;
+<<<<<<< HEAD
 	border-radius: 3px;
+=======
+	border-radius: 0px;
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 }
 
 .form-body-w3-agile label,
@@ -1384,8 +1409,11 @@ h1.paragraph-agileits-w3layouts a:hover {
 
 .forgot {
 	padding: 0;
+<<<<<<< HEAD
 	text-align:left !important;
 	margin: 4px -136px 0px 0px;
+=======
+>>>>>>> 8fc8660b02b9170b3aad2e8167d69dc710410220
 }
 
 /*----------------------------------------//
